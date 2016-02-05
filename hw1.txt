@@ -1,0 +1,8 @@
+1. cd
+2. mkdir
+3. mv
+4. ls
+5. mv
+6. cp
+7. grep
+8. ssh
