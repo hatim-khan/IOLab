@@ -1,0 +1,31 @@
+#name {
+  color: red;
+}
+
+#project-name {
+  color: maroon
+}
+#github {
+  color: maroon
+}
+#status {
+  color: maroon
+}
+#table-row {
+  text-transform: lowercase;
+}
+
+
+body {
+    background-color: red;
+}
+#buttons {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: left;
+}
+
+#buttons:nth-child(2) {
+  flex-grow: 40%;
+}
