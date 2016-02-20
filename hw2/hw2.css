@@ -1,0 +1,35 @@
+/*#title {
+  display: flex;
+  color: green;
+  color: red;
+  flex: right;
+}
+
+#organization {
+  display: flex;
+  color: blue;
+  flex: left;
+}
+
+#sign-in {
+  color: green;
+  border-color: blue;
+}*/
+
+.address {
+  color: lightblue;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+#center {
+  float: center;
+  text-align: center;
+  width: 100%;
+}
