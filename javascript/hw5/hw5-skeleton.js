@@ -1,17 +1,14 @@
 callAPI('hello') //use this as a placeholder for now
 
 function passQuery() {
-	// search = $('#searched').val()
-	// console.log(search);
-	// callAPI(search)
-	// var search = document.getElementById('searched').value;
-	// callAPI(search);
+	// callAPI($('#searched').val());
 }
-
 
 
 // Event hander for calling the SoundCloud API using the user's search query
 function callAPI(query) {
+	console.log(query);
+
 	$.get("https://api.soundcloud.com/tracks?client_id=b3179c0738764e846066975c2571aebb",
 		{'q': query,
 		'limit': '200'},
